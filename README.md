@@ -15,7 +15,7 @@ After selecting the 6 features, We split the data into Training and Test set/
  * We trained the model using the training set
  * We saved the trained model as 'Generator_Engine-LSTM_AE_model.h5'
 
- # 2. Time Series Anomaly Detection : DE2Thing_HMD8310 Measurement
+ # 2. Time Series Anomaly Detection in Diesel Engine (DE)
  ### LSTM_AE_MTS_Ex_Gas_Temp_1_9 file : We selected 10 features:
  ##### 1. time,
  ##### 2. Cy1ExhGasOutletTemp,
@@ -27,6 +27,7 @@ After selecting the 6 features, We split the data into Training and Test set/
  ##### 8. Cy7ExhGasOutletTemp,
  ##### 9. Cy8ExhGasOutletTemp,
  ##### 10. Cy9ExhGasOutletTemp
+ ### from DE2Thing_HMD8310 Measurement
 
  * We colleced the Data From '2022-08-29T23:28:00Z' To '2023-04-26T08:00:00Z'
 
@@ -40,3 +41,4 @@ After selecting the 6 features, We split the data into Training and Test set/
   
   ** Model Accuracy : 92%
   ** Model Loss : 0.00234
+  * * We saved the trained model as 'Generator_Engine-LSTM_AE_Cyl_model.h5'
